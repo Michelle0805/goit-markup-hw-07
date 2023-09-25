@@ -265,7 +265,7 @@ button {
     border-radius: 50%;
     outline: none;
     color: var(--navyblue);
-    /* position: fixed; */
+    
   
     @media screen and (min-width: 768px) {
       display: none;
@@ -285,7 +285,7 @@ button {
     width: 428px;
     height: 796px;
     padding: 80px 40px 40px;
-    
+    z-index: 10;
     background-color: var(--white);
     transition: transform (--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateX(100%);
@@ -363,14 +363,12 @@ button {
   
 }
 
-/* .hburger-social-link-svg {
-  height: 24px;
-  width: 24px;
-} */
 
 .projects-list-item-title, .services-heading {
   white-space: nowrap;
+ 
 }
+
 
 ul {
   list-style-type: none;
@@ -968,6 +966,7 @@ footer p {
   height: 300px;
   position: relative;
   overflow: hidden;
+  
 }
 
 .projects-list-img {
