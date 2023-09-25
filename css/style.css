@@ -1059,12 +1059,11 @@ footer p {
 }
 
 .social-link-svg {
-  /* width: 16px;
-  height: 16px; */
-  /* display: inline-flex;
-  align-content: center; */
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-content: center;
   
-
 }
 
 .social-links-item {
