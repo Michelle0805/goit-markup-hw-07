@@ -316,7 +316,11 @@ button {
   
 }
 
-.hburger-menu-list-item:hover {
+.hburger-item-link:hover {
+  color: var(--ocean);
+}
+
+.hburger-item-link.active {
   color: var(--ocean);
 }
 
@@ -337,13 +341,17 @@ button {
 
 }
 
-.hburger-address:hover {
+.hburger-address-link:hover {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
   color: var(--iris);
   
+}
+
+.hburger-address-link.active {
+  color: var(--iris);
 }
 
 .hburger-social-links {
