@@ -5,7 +5,7 @@
   
     const toggleMenu = () => {
       const isMenuOpen =
-        openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
+      openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
       openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
       mobileMenu.classList.toggle('is-open');
   
@@ -25,4 +25,4 @@
       openMenuBtn.setAttribute('aria-expanded', false);
       bodyScrollLock.enableBodyScroll(document.body);
     });
-  })();
+   })();
