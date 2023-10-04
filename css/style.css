@@ -761,19 +761,8 @@ p {
   flex-direction: column;
   align-content: center;
   text-align: center;
+  gap: 72px;
  
-  
-  @media screen and (min-width: 728px) 
-
-  { 
-
-  }
-
-  @media screen and (min-width: 1158px) 
-  {
-    display: flex;
-    gap: 72px;
-  }
 }
 
 .team { 
@@ -797,8 +786,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  
+  gap: 72px;
   
 
   @media screen and (min-width: 768px) 
@@ -807,13 +795,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 24px;
-    row-gap: 64px;
-    margin-top: 72px;
-  }
-
-  @media screen and (min-width: 1158px) 
-  {
-  
+    
   }
   
 }
@@ -828,15 +810,8 @@ p {
  display: flex;
  flex-direction: column;
  width: 264px;
- margin-top: 72px;
+ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
-  
-  @media screen and (min-width: 768px) 
-  {
-    margin-top: 0px;
-    
-   
-  }
 
   @media screen and (min-width: 1158px) 
   {
@@ -905,17 +880,6 @@ footer p {
   color: var(--cloud);
 }
 
-/* .footer-logo {
-  display: flex;
-  justify-content: left;
-  
-
-@media screen and (min-width: 1158) {
-  
-  
-}
-
-} */
 
 .container {
   max-width: 428px;
@@ -1029,13 +993,14 @@ footer p {
   align-content: center;
   justify-content: center;
 
-  @media screen and (min-width: 768)
+  @media screen and (min-width: 768px)
+  { 
+    padding: 0 16px 96px; 
+  }
 
-{ padding: 0 16px 96px; }
-
-  @media screen and (min-width: 1158)
+  @media screen and (min-width: 1158px)
   {
-    padding-bottom: 120px;
+    padding: 0 0 120px;
   }
     
  
@@ -1045,7 +1010,7 @@ footer p {
   display: flex;
   flex-direction: column;
   row-gap: 48px;
-  /* align-items: justify; */
+ 
   
   
 
@@ -1055,8 +1020,6 @@ footer p {
     flex-direction: row;
     row-gap: 72px;
     justify-content: space-between;
-    /* column-gap: 24; */
-    /* width: calc((100%-24px)/2); */
     flex-wrap: wrap;
   }
 
@@ -1065,7 +1028,7 @@ footer p {
     row-gap: 48px;
     column-gap: 10px;
     justify-content: flex-start;
-    /* width: calc((100%-24px)/3); */
+    
   }
 }
 
@@ -1075,9 +1038,6 @@ footer p {
   flex-direction: column;
   background: var(--white);
   align-items: flex-start;
-  /* text-indent: 16px; */
-  /* text-align: center; */
-  /* width: calc( (100%-60px) /3); */
   width: 100%;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   transition: box-shadow var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
@@ -1239,8 +1199,16 @@ footer p {
 .customer-container {
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  gap: 88px;
+
+  @media screen and (min-width: 768px) 
+  {
+    
+    gap: 72px;
+  }
+  
 }
+
 
 .customer { 
   
